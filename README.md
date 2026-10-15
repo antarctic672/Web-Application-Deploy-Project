@@ -1,8 +1,8 @@
-<img width="1920" height="915" alt="Screenshot_20261014_123858" src="https://github.com/user-attachments/assets/09a97a3f-71f3-421d-a33c-23c4c828fe09" /># Web-Application-Deploy-Project
+## Deployment Project
 
 ## 1. Project Overview
 
-A full-stack task planning application deployed on a Linux VPS.
+A full-stack task planning application deployed on a Linux VPS. I got the front and back-end from an educational youtube video (RED Group).
 
 The goal of this project was to gain practical experience in server administration, application deployment, database configuration, process management, and reverse proxy setup.
 
@@ -37,7 +37,11 @@ The goal of this project was to gain practical experience in server administrati
 The application runs on a VPS with separate frontend and backend services and a PostgreSQL database.
 
 - **Frontend:** Next.js, running on port `3000`
+  <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/ff96dd7c-4dac-4592-ae0b-b70ea4df9230" />
+
 - **Backend API:** NestJS, running on port `4200`
+  <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/805facd0-755c-4087-82e1-201d3f9d6279" />
+
 - **Database:** PostgreSQL
 - **Process manager:** PM2
 - **Reverse proxy:** Nginx
@@ -53,25 +57,27 @@ The browser connects to Nginx, which routes requests to the appropriate applicat
 - Connected local front and back-end from my Linux to Github. It is then accessed by the VPS
   <img width="1920" height="1080" alt="Screenshot_20261012_182658" src="https://github.com/user-attachments/assets/70b71fff-be35-4c3a-b834-cf9a164a68ba" />
 
+
 ### 5.2 — Database Setup
 - Installed PostgreSQL.
 - Created the application database and database user.
 - Configured database connection settings.
   <img width="1920" height="915" alt="Screenshot_20261014_123858" src="https://github.com/user-attachments/assets/45bea8a0-50be-4b22-9a02-0912922dff41" />
 
+
 ### 5.3 — Environment Configuration
 - Configured environment variables for the frontend and backend.
 - Set up the backend connection to PostgreSQL.
 - Configured the API URL and cross-origin request settings.
-  
+
   
 ### 5.4 — Application Deployment
 - Retrieved the application source code.
 - Installed dependencies.
 - Built the application services.
 - Prepared the application to run on the server.
-  
 
+  
 ### 5.5 — Process Management
 - Started the services using PM2.
 - Inspected process status and application logs.
@@ -83,6 +89,8 @@ The browser connects to Nginx, which routes requests to the appropriate applicat
 - Configured Nginx as a reverse proxy.
 - Routed incoming requests to the appropriate application services.
 - Tested the configuration and verified external access.
+  <img width="601" height="487" alt="image" src="https://github.com/user-attachments/assets/9750d253-e605-435e-8a2a-32869b80ba1a" />
+
 
 ## 6. Troubleshooting & Problem Solving
 
@@ -119,12 +127,11 @@ Investigated a case where the backend rejected a login request because the passw
 
 This project helped me gain practical experience with:
 
-- Deploying applications to a Linux VPS.
-- Managing services independently of a local development environment.
-- Configuring a reverse proxy and application ports.
-- Connecting application services to PostgreSQL.
-- Diagnosing issues using logs and configuration checks.
-- Understanding authentication and cookie behavior in a deployed environment.
+- Troubleshooting: Gained additional experience in error investigation using Chrome DevTools, browser network requests, and server logs.
+- Authentication: Investigated login issues, cookie handling, and frontend-backend interactions.
+- Full-Stack Debugging: Modified frontend and backend code to address issues discovered during testing.
+- Server Management: Gained practical experience with Ubuntu, PM2, and running application services.
+- Deployment & Infrastructure: Learned how the frontend, backend, PostgreSQL, and Nginx work together on a VPS.
 
 ## 9. Future Improvements
 
@@ -136,12 +143,6 @@ This project helped me gain practical experience with:
 
 ## 10. Project Links
 
-- **Live Demo:** Add URL if available
-- **Frontend Source:** Add repository URL if publication is permitted
-- **Backend Source:** Add repository URL if publication is permitted
-
 ## 11. Attribution
 
 The application is based on an existing educational project. This repository documents my deployment work, server configuration, troubleshooting, and learning outcomes.
-
-Original application code is attributed to its original author. Source code is shared only where permitted by the applicable license or author’s permission.
