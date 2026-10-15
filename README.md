@@ -1,4 +1,4 @@
-## Deployment Project
+## Deploy Project
 
 ## 1. Project Overview
 
