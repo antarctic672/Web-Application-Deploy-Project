@@ -114,7 +114,13 @@ Investigated a case where the backend rejected a login request because the passw
 
 **Key takeaway:** Successful deployment involves not only starting services, but also verifying how they communicate and how errors are handled across the application.
 
-## 7. Security Considerations
+## 7. The result
+Hosted full-stack Planner web application. You can login/register, expand the to-do list, etc.. The app itself is not important to me - the deploy and host of the application which is able to handle queries and work properly is. Not to mention the troubleshooting process
+<img width="1920" height="1080" alt="Screenshot_20261014_212101" src="https://github.com/user-attachments/assets/ae8cf6ca-7b9b-4949-aef3-95beae535bba" />
+<img width="1920" height="1080" alt="Screenshot_20261014_212139" src="https://github.com/user-attachments/assets/9c16c0a3-1e8f-4833-b3ff-3e06cc17cc23" />
+
+
+## 8. Security Considerations
 
 - Use SSH for remote administration.
 - Keep secrets and database credentials out of Git.
@@ -123,7 +129,7 @@ Investigated a case where the backend rejected a login request because the passw
 - Validate Nginx and application configuration before restarting services.
 - Configure HTTPS before using the application for production traffic.
 
-## 8. Challenges & Lessons Learned
+## 9. Challenges & Lessons Learned
 
 This project helped me gain practical experience with:
 
@@ -133,7 +139,7 @@ This project helped me gain practical experience with:
 - Server Management: Gained practical experience with Ubuntu, PM2, and running application services.
 - Deployment & Infrastructure: Learned how the frontend, backend, PostgreSQL, and Nginx work together on a VPS.
 
-## 9. Future Improvements
+## 10. Future Improvements
 
 - Configure a domain name and HTTPS.
 - Improve server monitoring and log management.
@@ -141,8 +147,6 @@ This project helped me gain practical experience with:
 - Add database backup and recovery procedures.
 - Strengthen server security and operational reliability.
 
-## 10. Project Links
+## 11. Final Considerations
 
-## 11. Attribution
-
-The application is based on an existing educational project. This repository documents my deployment work, server configuration, troubleshooting, and learning outcomes.
+The application is based on an existing educational project. This repository documents my deployment work, server configuration, troubleshooting, and learning outcomes. I am happy to finish this thing of mine and definitely going to do more DevOps projects. Maybe something bigger. 
